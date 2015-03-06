@@ -37,7 +37,7 @@ class RecipesController < ApplicationController
 
   def destroy
     @recipe.destroy
-    redirect_to toot_path, notice: "成功刪除"
+    redirect_to root_path, notice: "成功刪除"
   end
 
 

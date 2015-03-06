@@ -1,9 +1,10 @@
 source 'https://rubygems.org'
 
-gem "haml-rails", "~> 0.8"
-gem 'simple_form'
-gem 'bootstrap-sass', '~> 3.3.3'
-gem 'sass-rails', '>= 3.2'
+gem "haml-rails", "~> 0.8"  #轉HAML格式
+gem 'simple_form'              #表單        
+gem 'bootstrap-sass', '~> 3.3.3'  #套用bootstrap
+gem 'sass-rails', '>= 3.2'        #套用sass
+gem "paperclip", "~> 4.2"         #圖片上傳
 
 
 
